@@ -20,13 +20,15 @@ $('document').ready(function(){
 	//function that handle grid creation accordingly
 	function makeGrid(gridH, gridW){
 		let table = $('table');
-		for(let i = 1; i <= gridH; i++){
-				let row = $('<tr></tr>');
+		let i = 1;
+		while(i <= gridH){
+			let row = $('<tr></tr>');
 			for(let j = 1; j <= gridW; j++){
 				let col = $('<td></td>');
 				table.append(row);
 				row.append(col);
 			}
+			i++;
 		}
 		$('#pixelCanvas').append(table);
 	}

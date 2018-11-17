@@ -1,5 +1,7 @@
 body {
     text-align: center;
+    background: linear-gradient(90deg, #CCF5FF, #FFCCFC);
+    background-size: cover;
 }
 
 h1 {
@@ -25,6 +27,8 @@ td {
 table {
     border-collapse: collapse;
     margin: 0 auto;
+    margin-bottom: 60px;
+    background-color: #FFFFFF;
 }
 
 tr {
@@ -37,4 +41,23 @@ td {
 
 input[type=number] {
     width: 6em;
+}
+
+/* Recent add */
+.footer p {
+    font-size: 21px;
+    color: #FFFFF6;
+}
+
+a {
+    text-decoration: none;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    background-color: #2196F3;
 }

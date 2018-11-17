@@ -1,3 +1,3 @@
 # Pixel Art Maker Project
 
-This is a live Pixel art Marker Project!
+Here is the live project: https://Dauli.github.io
